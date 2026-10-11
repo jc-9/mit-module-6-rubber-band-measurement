@@ -51,6 +51,7 @@
 - 2026-10-10: Organized images: all current captures (captured_image.jpg, live_annotated.jpg, binary_threshold_red_string.jpg, annotated_measurement.jpg) moved into images_v1/ as version one archive (do not modify/touch). Script updated to save future captures to images_v2/. v2 folder ready for new images. Updated PROJECT.md.
 - 2026-10-10: Static repeatability test on coin (as object): 2000 measurements via repeated Hough detection on live camera. Collected diam_px, normalized to mm around 19.05. Mean: 19.05 mm, Std: 1.3666 mm. Data saved to images_v2/coin_repeatability_data.csv (2000 rows: measurement, diam_px, measured_mm). Added timer: started 21:48:59, concluded 21:52:22, full duration 203.30 seconds. Histogram also saved. CSV allows custom graphing.
 - 2026-10-10: Packaged project for GitHub. Created clean README.md explaining the full method (penny as 19.05 mm reference for scale, red rubber band measurement via HSV + skeleton). Added .gitignore and requirements.txt. Initialized git repo and made initial commit. All v1 images preserved untouched.
+- 2026-10-10: Uploaded to GitHub via gh CLI: https://github.com/jc-9/mit-module-6-rubber-band-measurement (public repo created and pushed successfully).
 
 ## Open questions
 - (Updated from spec) Will user provide sample images, specific coin size, wire sample, or camera index? 
