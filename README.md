@@ -9,6 +9,14 @@ A standard US penny (diameter = **19.05 mm**) is used as a known reference objec
 
 This was developed as part of **MIT Module 6** (likely a measurement, metrology, or computer vision lab).
 
+## Physical Setup
+
+The USB camera is mounted in a fixed position above the work area, looking down at the penny and the red rubber band. This setup ensures consistent perspective and lighting for repeatable measurements.
+
+![Camera Setup](docs/images/camera_setup.jpeg)
+
+The image above shows the physical arrangement used for all experiments.
+
 ## How It Works
 
 ### 1. Calibration (Penny as Reference)
@@ -47,6 +55,9 @@ While setting up, the program shows a live camera feed with real-time overlays:
 mit_assignment_module_6_101026/
 ├── module6_wire_length.py          # Main phased measurement program
 ├── coin_repeatability_test.py      # 2000 repeated measurements + CSV + histogram
+├── docs/
+│   └── images/
+│       └── camera_setup.jpeg       # Physical camera mounting reference
 ├── images_v1/                      # Archived original captures (do not modify)
 │   ├── captured_image.jpg
 │   ├── live_annotated.jpg
