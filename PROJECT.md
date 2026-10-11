@@ -53,6 +53,7 @@
 - 2026-10-10: Packaged project for GitHub. Created clean README.md explaining the full method (penny as 19.05 mm reference for scale, red rubber band measurement via HSV + skeleton). Added .gitignore and requirements.txt. Initialized git repo and made initial commit. All v1 images preserved untouched.
 - 2026-10-10: Uploaded to GitHub via gh CLI: https://github.com/jc-9/mit-module-6-rubber-band-measurement (public repo created and pushed successfully).
 - 2026-10-10: Added camera setup photo from Downloads (WhatsApp image) renamed to camera_setup.jpeg and placed in docs/images/. Updated README.md with "Physical Setup" section including the embedded image for reference on physical mounting. Committed and pushed.
+- 2026-10-10: Updated README with "Visual Examples" section. Added references to images_v1/binary_threshold_red_string.jpg (binary threshold output) and images_v1/live_annotated.jpg (annotated view showing penny + red string with outlines, boxes, and labels). These provide visual references for expected outputs in GitHub.
 
 ## Open questions
 - (Updated from spec) Will user provide sample images, specific coin size, wire sample, or camera index? 

@@ -49,6 +49,21 @@ While setting up, the program shows a live camera feed with real-time overlays:
   - Calculated rubber band length
   - Current scale (px/mm)
 
+## Visual Examples
+
+### Binary Threshold (Red String Segmentation)
+This is the output of Phase 3 — the binary mask after HSV color thresholding and morphological operations. It isolates the red rubber band for length calculation:
+
+![Binary Threshold Image](images_v1/binary_threshold_red_string.jpg)
+
+### Annotated View (Penny + Rubber Band)
+This shows the full annotated output with both objects clearly marked for reference:
+
+- **Penny**: Green circle + "PENNY" label + diameter text (19.05 mm reference)
+- **Red String**: Magenta outline + cyan bounding box + "RED STRING" label + length measurement in red text
+
+![Annotated Output](images_v1/live_annotated.jpg)
+
 ## Project Structure
 
 ```
