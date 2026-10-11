@@ -51,6 +51,11 @@ While setting up, the program shows a live camera feed with real-time overlays:
 
 ## Visual Examples
 
+### Original Captured Image (No Annotations)
+This is the raw image captured directly from the camera (Phase 1 output before any overlays or processing):
+
+![Original Captured Image](images_v1/captured_image.jpg)
+
 ### Binary Threshold (Red String Segmentation)
 This is the output of Phase 3 — the binary mask after HSV color thresholding and morphological operations. It isolates the red rubber band for length calculation:
 
