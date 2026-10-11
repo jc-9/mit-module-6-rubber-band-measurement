@@ -55,6 +55,10 @@
 - 2026-10-10: Added camera setup photo from Downloads (WhatsApp image) renamed to camera_setup.jpeg and placed in docs/images/. Updated README.md with "Physical Setup" section including the embedded image for reference on physical mounting. Committed and pushed.
 - 2026-10-10: Updated README with "Visual Examples" section. Added references to images_v1/binary_threshold_red_string.jpg (binary threshold output) and images_v1/live_annotated.jpg (annotated view showing penny + red string with outlines, boxes, and labels). These provide visual references for expected outputs in GitHub.
 - 2026-10-10: Added original captured image (no annotations) to Visual Examples in README for reference. Image: images_v1/captured_image.jpg. Committed and pushed.
+- 2026-10-10: Project wrapped up for now. README finalized with:
+  - Physical setup section + camera_setup.jpeg
+  - Visual Examples section (raw captured image, binary threshold, full annotated views with penny + red string labels)
+  All reference images from images_v1/ included for GitHub viewers. Git repo clean, fully pushed. Session complete.
 
 ## Open questions
 - (Updated from spec) Will user provide sample images, specific coin size, wire sample, or camera index? 
